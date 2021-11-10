@@ -1,0 +1,20 @@
+section .banner{
+    background-image: url(../img/img-vietnams/ha-giang.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    width: 100%;
+}
+
+section .banner h2 {
+    color: black;
+    text-align: left
+    min-width: 32px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    font-size: 17px;
+    line-height: 1.56;
+    font-weight: 400;
+    word-wrap: break-word;
+
+}
