@@ -1,4 +1,7 @@
-section .banner{
+
+
+
+section .banner-container{
     background-image: url(../img/img-vietnams/ha-giang.jpg);
     background-size: cover;
     background-position: center;
@@ -6,9 +9,8 @@ section .banner{
     width: 100%;
 }
 
-section .banner h2 {
-    color: black;
-    text-align: left
+section .go-on-a-vietnam h2 {
+    text-align: left;
     min-width: 32px;
     padding-top: 90px;
     padding-bottom: 90px;
