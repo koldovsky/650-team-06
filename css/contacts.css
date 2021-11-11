@@ -1,0 +1,17 @@
+.contacts {
+   
+    background-image: url(../img/img-contacts/zebra.jpg);
+    background-size: cover;
+    background-position: center;
+    justify-content: left;
+    max-width: 100%;
+    height: auto;
+
+}
+.contacts-up {
+    color: #f1c324;
+}
+
+.text {
+    color: white
+}
