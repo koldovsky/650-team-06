@@ -5,6 +5,7 @@ section .banner-container{
     background-image: url(../img/img-vietnams/redy-to-go.webp);
     background-size: cover;
     background-position: center;
+    display: flex;
     min-height: 400px;
     width: 100%;
 }
