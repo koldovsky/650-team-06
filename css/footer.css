@@ -6,3 +6,7 @@ footer nav .menu {
     justify-content: space-around;
     flex: 1;
 }
+
+footer nav .foot {
+    align-items: center;
+}

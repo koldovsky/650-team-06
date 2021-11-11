@@ -1,11 +1,11 @@
 .contacts {
-   
     background-image: url(../img/img-contacts/zebra.jpg);
     background-size: cover;
     background-position: center;
     justify-content: left;
     max-width: 100%;
     height: auto;
+    border: solid;
 
 }
 .contacts-up {
@@ -14,4 +14,7 @@
 
 .text {
     color: white
+}
+a:hover {
+    color:red;
 }
