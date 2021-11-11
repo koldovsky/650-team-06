@@ -1,26 +1,29 @@
-
-section .logo{
-    text-align: center;
-    box-sizing: border-box;
-    margin-bottom: 0.5rem;
-    font-weight: 500;
-    line-height: 1.2;
-    font-size: calc(1.325rem + 0.9vw);
-    margin-top: 0;
-
-    
-}
-section .wallpeper{
+section .wallpeper {
     max-width: 100%;
     height: auto;
 }
+
+section .logo {
+    display: block;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1.5;
+    font-size: calc(1.325rem + 0.9vw);
+    margin-top: 0;
+    position: absolute;
+}
+
 section p .about {
     display: block;
+    line-height: 1.5;
+    font-weight: normal;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    font-size: 1.2em;
 }
+
 section .botton {
     padding: 1.25rem 2.25rem;
     font-size: 0.85rem;
@@ -29,5 +32,3 @@ section .botton {
     border: none;
     border-radius: 10rem;
 }
-
-
