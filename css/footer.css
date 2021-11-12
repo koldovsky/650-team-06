@@ -1,12 +1,27 @@
-footer nav .menu {
+.foot {
     display: flex;
-    flex-direction: row;
-    margin-left: 5px;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-    flex: 1;
+    margin: 5% auto;
 }
 
-footer nav .foot {
+p {
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.menu a {
+    margin-right: 40px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.logo {
     align-items: center;
 }

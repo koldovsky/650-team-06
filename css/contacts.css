@@ -1,19 +1,24 @@
-.contacts {
-    background-image: url(../img/img-contacts/zebra.jpg);
-    background-size: cover;
-    background-position: center;
-    justify-content: left;
-    max-width: 100%;
-    height: auto;
-    border: solid;
-
+.contacts-all {
+    display: flex;
+    background-color: black;
 }
-.contacts-up {
+
+.contacts {
+    width: 50%;
+    height: auto;
+    left: 80px;
+    display: column;
+    margin-left: 5em;
+}
+
+h2 {
     color: #f1c324;
 }
 
 .text {
-    color: white
+    color: white;
+    text-align: left;
+
 }
 a:hover {
     color:red;
