@@ -1,14 +1,16 @@
 header .head {
-    background-image:url(/img/img-fon/elefant.jpg);
+    background-image:url(/img/img-fon/fonvietnam.jpg);
     display: space-between;
     color: var(--main-color);
     flex-direction: column;
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: center;
     text-transform: uppercase;
 }
 .menu a{
-    margin-right: 40px;
-    font-weight: bold;
-    text-decoration: none;
+    width: 100%;
+    height: auto;
+    left: 20px;
+    display: column;
+    margin-left: 1em;
 }
