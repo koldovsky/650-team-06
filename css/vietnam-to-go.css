@@ -16,6 +16,23 @@
     font-family: Dosis, sans-serif;
     font-size: 34px;
     text-align: center;
+
+}
+
+.vietnam-go .container .button {
+    background-color: rgb(36, 184, 241);
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+
+}
+
+.vietnam-go .container .button:hover {
+    background-color: rgb(255, 165, 0);
+
 }
 
 @media (min-width:800px) {
