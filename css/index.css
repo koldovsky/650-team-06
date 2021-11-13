@@ -4,11 +4,18 @@
     margin: 0;
     padding: 0;
 }
-
-
 :root {
     font-family: 'Dosis', sans-serif;
     --main-color: black;
 }
-
+header .head {
+    color: var(--main-color);
+    font-size: 3.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.container {
+    max-width: 980px;
+    margin: auto;
+}
 
