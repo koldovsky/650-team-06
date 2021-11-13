@@ -1,0 +1,14 @@
+header .head {
+    background-image:url(/img/img-fon/elefant.jpg);
+    display: space-between;
+    color: var(--main-color);
+    flex-direction: column;
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.menu a{
+    margin-right: 40px;
+    font-weight: bold;
+    text-decoration: none;
+}
