@@ -1,34 +1,35 @@
-section .wallpeper {
-    max-width: 100%;
-    height: auto;
+.vietnam-go {
+    background-image: url(../img/img-vietnams/redy-to-go.webp);
+    background-size: cover;
+    background-position: center;
+    min-height: 624px;
 }
 
-section .logo {
-    display: block;
+.vietnam-go .container {
+    min-height: 624px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vietnam-go h2 .logo {
+    font-family: Dosis, sans-serif;
+    font-size: 34px;
     text-align: center;
-    font-weight: normal;
-    line-height: 1.5;
-    font-size: calc(1.325rem + 0.9vw);
-    margin-top: 0;
-    position: absolute;
 }
 
-section p .about {
-    display: block;
-    line-height: 1.5;
-    font-weight: normal;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-size: 1.2em;
-}
+@media (min-width:800px) {
 
-section .botton {
-    padding: 1.25rem 2.25rem;
-    font-size: 0.85rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    border: none;
-    border-radius: 10rem;
+    .vietnam-go .container {
+        justify-content: flex-start;
+
+    }
+
+    vietnam-go h2 .logo {
+        text-align: left;
+    }
+
+    .vietnam-go .banner-container {
+        width: 50%;
+    }
 }
