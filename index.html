@@ -6,11 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arabica Tour</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/vietnam-to-go.css">
     <link rel="stylesheet" href="css/contacts.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/meet-our-teem.css">
+
+
 </head>
 
 <body>
@@ -18,16 +22,19 @@
         <div>
             <div class="head">
                 <h1>TRAVEL COMPANY</h1>
-                <h3>six-team@gmail.com</h3>
+                <p>six-team@gmail.com</p>
                 <nav>
-                    <div class="menu">
-                        <a href="vietnam.html" target="_blank">Tours</a>
-                        <a href="#Services">Services</a>
-                        <a href="#Aboutus">About us</a>
-                        <a href="#Team">Team</a>
-                        <a href="#Testimonials">Testimonials</a>
-                        <a href="#contacts">Contacts</a>
-                    </div>
+                    <div class="container">
+                        <label class="burger-icon" for="burger-checkbox">☰</label>
+                        <input type="checkbox" id="burger-checkbox"> </input>
+                        <div class="menu">
+                            <a href="vietnam.html" target="_blank">Tours</a>
+                            <a href="#Services">Services</a>
+                            <a href="#Aboutus">About us</a>
+                            <a href="#team">Team</a>
+                            <a href="#testimonials">Testimonials</a>
+                            <a href="#contacts">Contacts</a>
+                        </div>
                 </nav>
             </div>
     </header>
@@ -150,24 +157,53 @@
         </section>
         <section class="meet-our-teem">
             <div class="our-team">
-                <h2 id="Team" class="team">Meet Our Team</h2>
-                <div id="carousel" class="carousel">
-                    <button class="arrow prev">⇦</button>
-                    <div class="gallery">
-                        <ul>
-                            <li><img width="300" src="img/img-vietnams/tomas-wilens.webp" alt="Tomas Wilens"></li>
-                            <li> Tomas Wilens - Professional photograf ( 10 years of experience) </li>
-                            <li><img width="300" src="img/img-vietnams/betony-beker.webp" alt="Betony Becker"></li>
-                            <li> Betony Backer - Professional Guide( 5 years of experience) </li>
-                            <li><img width="300" src="img/img-vietnams/helena-farse.webp" alt="Helena Fars"></li>
-                            <li> Helena Fars - Professional Guide ( 3 years of experience) </li>
-                            <li><img width="300" src="img/img-vietnams/dan-pitts.webp" alt="Dan Pitts"></li>
-                            <li> Dan Pits - Professional photograf ( 7 years of experience) </li>
-                        </ul>
+                <h2 id="team" class="meet-team">Meet Our Team</h2>
+                <div id="carousel-products" class="carousel carousel-dark slide container" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel-products" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carousel-products" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carousel-products" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carousel-products" data-bs-slide-to="3" aria-label="Slide 4"></button>
                     </div>
-                    <button class="arrow next">⇨</button>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="img/img-vietnams/tomas-wilens.webp" class="d-block w-100" alt="Tomas Wilens">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Tomas Wilens</h5>
+                                <p>Professional photograf ( 10 years of experience).</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="img/img-vietnams/betony-beker.webp" class="d-block w-100" alt="Betony Beker">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Betony Beker</h5>
+                                <p>Professional Guide( 5 years of experience).</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/img-vietnams/helena-farse.webp" class="d-block w-100" alt="Helena Farse">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Helena Farse</h5>
+                                <p>Professional Guide ( 3 years of experience).</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/img-vietnams/dan-pitts.webp" class="d-block w-100" alt="Dan Pitts">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Dan Pitts</h5>
+                                <p>Professional photograf ( 7 years of experience).</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-products" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel-products" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-
             </div>
             <div class="images-social-media">
                 <a href="https://www.youtube.com/">
@@ -194,10 +230,12 @@
                     <img width="30" src="img/img-vietnams/facebook.png" alt="Icon-Facebook">
                 </a>
             </div>
+            </div>
+            </div>
         </section>
         <section class="reviews">
             <div class="customer-say">
-                <h2 id="Testimonials" class="customers">Our Customers Say </h2>
+                <h2 id="testimonials" class="customers">Our Customers Say </h2>
                 <div class="customer-say-images">
                     <figure>
                         <img width="300" src="img/img-vietnams/menwithfotoaparat.jpeg" alt="Men with fotoaparta">
@@ -275,7 +313,7 @@
         </div>
     </footer>
     <!--10 - contacts 11 - сам низ сторінки + блок end-->
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 
 </html>
