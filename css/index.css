@@ -22,3 +22,7 @@ body {
     max-width: 980px;
     margin: auto;
 }
+img .container {
+    display: block;
+    width: 100%;
+}

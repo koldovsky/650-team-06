@@ -2,17 +2,14 @@ header .head {
     background-image:url(/img/img-fon/vetnam-nebo.jpg);
     background-size: cover;
     background-position: center;
-    justify-content: center;
-    align-items: center;
-    color: var(--main-color);
+    color: var(--maim-color);
     flex-direction: column;
     font-size: 3.5rem;
     text-align: center;
-    text-transform: uppercase;
-    min-height: 200px;
 }
 .menu a{
     color:yellow;
+    text-align: left;
     width: 100%;
 }
 @media (min-width: 600px) {
