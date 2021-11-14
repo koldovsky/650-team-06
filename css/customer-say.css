@@ -1,0 +1,58 @@
+
+
+#testimonials{
+    text-align: center;
+    background-color:white;
+    padding-top: 26px;
+    padding-bottom: 25px;
+    
+}
+.customer-say{
+    background-color: gray;
+    color: rgb(255, 255, 255);
+    width: 100%;
+  
+}/*
+.container-customer-say {
+    display: block;
+    width: 100%;
+}*/
+/* 
+.container-customer-say .fotoaparat{
+    height: 100%;
+        width: auto;
+}
+.container-customer-say .elefant{
+    height: 100%;
+        width: auto;
+}
+
+/*
+@media (min-width: 500px) {
+    container-customer-say {
+        display: grid;
+        grid-template-columns: 1fr ;
+        gap: 5px;
+    }
+}
+
+@media (min-width: 660px) {
+    container-customer-say{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 980px) {
+    container-customer-say {
+        grid-template-columns: 1fr 1fr ;
+    }
+}
+
+
+
+
+
+
+
+
+
