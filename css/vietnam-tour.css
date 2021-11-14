@@ -1,10 +1,15 @@
 header .introduction{
-    min-height: 500px;
+   
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.information {
+.information{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section .title-tour{
     display: flex;
     align-items: center;
     justify-content: center;
