@@ -1,16 +1,28 @@
 header .head {
-    background-image:url(/img/img-fon/fonvietnam.jpg);
-    display: space-between;
+    background-image:url(/img/img-fon/vetnam-nebo.jpg);
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
     color: var(--main-color);
     flex-direction: column;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     text-align: center;
     text-transform: uppercase;
+    min-height: 200px;
 }
 .menu a{
+    color:yellow;
     width: 100%;
-    height: auto;
-    left: 20px;
-    display: column;
-    margin-left: 1em;
+}
+@media (min-width: 600px) {
+header nav .container {
+        display: flex;
+    }
+header nav .menu {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        flex: 1;
+    }
 }
