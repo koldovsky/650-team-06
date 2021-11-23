@@ -1,0 +1,12 @@
+.carousel .slides-container {
+    display: flex;
+    justify-content: space-around;
+}
+.button .prev {
+    display: flex;
+    justify-content: flex-start;
+}
+.button .next {
+    display: flex;
+    justify-content: flex-end;
+}

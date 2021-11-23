@@ -4,7 +4,7 @@
         '<div><img src="img/elefant.two.jpg" alt="Elefant Two"></div>',
         '<div><img src="img/gorilla.jpg" alt="Gorilla"></div>',
         '<div><img src="img/roe.deer.jpg" alt="Roe Deer"></div>',
-        '<div><img src="img/wisent.jpg" alt="Wisent"></div>'
+        '<div><img src="img/wisent.jpg" alt="Wisent"></div>',
     ];
 
     let currentSlideIdx = 0;
