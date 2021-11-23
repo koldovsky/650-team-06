@@ -1,5 +1,5 @@
 header .head {
-    background-image:url(/img/img-fon/vetnam-nebo.jpg);
+    background-image: url(../img/img-fon/vetnam-nebo.jpg);
     background-size: cover;
     background-position: center;
     color: var(--maim-color);
