@@ -10,7 +10,7 @@
     let currentSlideIdx = 0;
 
     function renderSlides() {
-        const slidesContainer = document.querySelector('.carousel .slides-container');
+        const slidesContainer = document.querySelector('.our-tours-carousel .slides-container');
         slidesContainer.innerHTML = slides[currentSlideIdx];
         if (window.innerWidth > 500) {
             const slide2Idx = currentSlideIdx + 1 >= slides.length ? 0 : currentSlideIdx + 1;
@@ -35,8 +35,8 @@
     }
 
     setInterval(nextSlide, 3000);
-    document.querySelector('.carousel .prev').addEventListener('click', prevSlide);
-    document.querySelector('.carousel .next').addEventListener('click', nextSlide);
+    document.querySelector('.our-tours-carousel .prev').addEventListener('click', prevSlide);
+    document.querySelector('.our-tours-carousel .next').addEventListener('click', nextSlide);
 
     renderSlides();
 

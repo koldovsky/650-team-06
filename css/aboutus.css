@@ -1,18 +1,14 @@
 .aboutus {
     display: flex;
     background-color: black;
+    display: list-item;
 }
 .aboutus {
-    width: 50%;
+    width: 100%;
     height: auto;
-    left: 80px;
     display: column;
-    margin-left: 5em;
-}
-h2 {
-    color: #f1c324;
 }
 .text {
     color: white;
-    text-align: left;
+    display: center;
 }
