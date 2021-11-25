@@ -1,7 +1,7 @@
 (function() {
     const slides = [
         '<div><img src="img/img-header-tours/big.tree.jpg" alt="Big Tree"></div>',
-        '<div><img src="img/img-header-tours/elefant.two.jpg" alt="Elefant Two"></div>',
+        '<div><img src="img/img-header-tours/elefantt.jpg" alt="Elefant"></div>',
         '<div><img src="img/img-header-tours/gorilla.jpg" alt="Gorilla"></div>',
         '<div><img src="img/img-header-tours/roe.deer.jpg" alt="Roe Deer"></div>',
         '<div><img src="img/img-header-tours/wisent.jpg" alt="Wisent"></div>',
