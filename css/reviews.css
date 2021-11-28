@@ -24,9 +24,36 @@ height: 100%;
     background-color: gray;
 }
 //* доробити *//
-@media (min-width:700px) {
+
+
+/*@media (min-width: 500px) {
+    .carousel-reviews  {
+        display: grid;
+        grid-template-columns: 
+
+    }
+}
+
+@media (min-width: 980px) {
+    .carousel-reviews  {
+        grid-template-columns: 1fr 1fr ;
+    }
+}
+
+
+
+
+
+
+
+/*@media (min-width:800px) {
     
     .carousel-reviews {
         display: grid;
+        grid-area:auto;
+    }
+
+    .text-container {
+        text-align: right;
     }
 }
