@@ -1,5 +1,5 @@
 .container-aboutus {
-    background-color: white;
+    background-color: paleturquoise;
     background-size: cover;
     background-position: center;
     color: var(--maim-color);
@@ -10,4 +10,11 @@
 .text {
     color: black;
     text-align: center;
+    font-size: 1.5rem;
+}
+.aboutus {
+    color:orange;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bolder;  
 }

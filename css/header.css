@@ -1,16 +1,24 @@
 header .head {
-    background-image: url(../img/img-header-tours/vetnam-nebo.jpg);
+    background-image: url(../img/img-header-tours/vetnam-neboTRY.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: right 15% bottom 22%;
     color: var(--maim-color);
     flex-direction: column;
     font-size: 3.5rem;
     text-align: center;
 }
 .menu a{
-    color:yellow;
+    color:black;
     text-align: left;
     width: 100%;
+    text-decoration: none;
+}
+.menu a:hover {
+    color:red;
+}
+.name{
+    font-weight: bold;
+    color: black;
 }
 @media (min-width: 600px) {
 header nav .container {

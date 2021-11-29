@@ -1,6 +1,6 @@
 .our-tours-carousel .slides-container {
     display: flex;
-    background:white;
+    background-color: paleturquoise;
     justify-content: space-around;
     object-fit: cover;
 }
