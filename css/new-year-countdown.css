@@ -1,5 +1,14 @@
-.new-year-countdown {
-    color:plum;
+.new-year {
+    background-image: url('../img/img-contacts/new-year.jpg') ;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    font-size: 30px;
+    width: 100%;
+    align-items: center;
+
+}
+
+.new-year-countdown {
+    color:red;
+    font-size: 30px;
 }
