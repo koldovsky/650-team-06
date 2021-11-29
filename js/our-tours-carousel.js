@@ -1,10 +1,10 @@
 (function() {
     const slides = [
-        '<div><img src="img/img-header-tours/big.tree.jpg" alt="Big Tree"></div>',
-        '<div><img src="img/img-header-tours/elefantt.jpg" alt="Elefant"></div>',
-        '<div><img src="img/img-header-tours/gorilla.jpg" alt="Gorilla"></div>',
-        '<div><img src="img/img-header-tours/roe.deer.jpg" alt="Roe Deer"></div>',
-        '<div><img src="img/img-header-tours/wisent.jpg" alt="Wisent"></div>',
+        '<div><img src="img/img-header-tours/gipoppotam.jpg" alt="Gipoppotam"></div>',
+        '<div><img src="img/img-header-tours/many.elefant.jpg" alt="Elefant"></div>',
+        '<div><img src="img/img-header-tours/giraff.jpg" alt="Giraff"></div>',
+        '<div><img src="img/img-header-tours/line.horse.jpg" alt="Horse"></div>',
+        '<div><img src="img/img-header-tours/little.gepard.jpg" alt="Gepard"></div>',
     ];
 
     let currentSlideIdx = 0;
