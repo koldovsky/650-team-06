@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     margin: 5% auto;
+    
 }
 
 p {
@@ -11,16 +12,15 @@ p {
     font-weight: bold;
 }
 
+
 a {
     font-size: 20px;
     text-decoration: none;
+    color:black;
+    font-weight: bold;
+   
 }
 
-.menu a {
-    margin-right: 40px;
-    font-weight: bold;
-    text-decoration: none;
-}
 
 .logo {
     align-items: center;
