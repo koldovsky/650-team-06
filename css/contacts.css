@@ -1,8 +1,12 @@
-.contacts-all {
+.container-contacts {
     display: flex;
     background-color: black;
 }
-
+@media screen and (max-width:650px) {
+    .container-contacts {
+        flex-direction: column;
+    }
+}
 .contacts {
     width: 50%;
     height: auto;
