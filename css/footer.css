@@ -3,6 +3,12 @@
     flex-direction: column;
     align-items: center;
     margin: 1% auto;
+   
+}
+
+.text-menu {
+    align-items: center;
+    margin-left: 40px;
 }
 
 p {
@@ -28,4 +34,9 @@ a {
     font-size: 20px;
     margin: 0;
     padding: 0;
+    
+}
+
+.social a {
+    margin-left: 35px;
 }
