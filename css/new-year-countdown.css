@@ -1,14 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
+
 .new-year {
     background-image: url('../img/img-contacts/new-year.jpg') ;
     display: flex;
     flex-direction: column;
-    font-size: 30px;
+    font-size: 35px;
     width: 100%;
     align-items: center;
-
 }
 
 .new-year-countdown {
     color:red;
     font-size: 30px;
+    font-family: 'Allura', cursive;
 }
